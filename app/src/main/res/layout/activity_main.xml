@@ -1,40 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    tools:context=".MainActivity" >
 
-    <Button
-        android:id="@+id/btn_stop_receiving"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="STOP Receiving data"
-        android:layout_alignParentTop="true"
-        android:enabled="false"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="89dp" />
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="http://android-er.blogspot.com/"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/infoip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/btn_stop_receiving"
-        android:layout_marginTop="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/tv_data_from_client"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:text="client message" />
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </ScrollView>
 
-    <Button
-        android:id="@+id/btn_start_receiving"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="START Receiving data"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp" />
-</RelativeLayout>
+</LinearLayout>

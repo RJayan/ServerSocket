@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\.android\build-cache\f0bf4c2768e450377838c9dc076e25b985bdcd56\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="E:\Android\AndroidStudioProjects\ServerSocket\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80883503e24bbb59e87f1f25bde5ab21f5fb90b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\Android\AndroidStudioProjects\ServerSocket\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="E:\Android\AndroidStudioProjects\ServerSocket\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3a8588a4c1394fbe67dc88a070bd96e35cc17d80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\f0bf4c2768e450377838c9dc076e25b985bdcd56\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\Android\AndroidStudioProjects\ServerSocket\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80883503e24bbb59e87f1f25bde5ab21f5fb90b6\classes.dex" />
     </item>
     <item
         is-multidex="true"
